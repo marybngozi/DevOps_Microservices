@@ -11,6 +11,7 @@ dockerpath=marybngozi/mlkubeapi
 kubectl get nodes 
 
 kubectl create deploy mlkubeapi --image=$dockerpath
+kubectl create deploy mlkubeapi --image=marybngozi/mlkubeapi
 
 
 # Step 3:
